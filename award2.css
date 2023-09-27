@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sticky-logo{
+
+	list-style-type: none;
+	position: fixed;
+	top: 200px;
+	right: 20px;
+	float: right;
+	z-index: 999999;
+}
+.sticky-logo li{
+	height: 40px;
+	width: 40px;
+	background: steelblue;
+	margin-top:10px;
+	border-radius: 5px;
+	text-align: center;
+}
+.sticky-logo i{
+	margin-top: 10px;
+	font-size: 20px;
+	color: white;
+}
+.sticky-logo li:hover i{
+	transform: scale(1.2);
+}
+.whyb{
+    height: 430px;
+    width: 100%;
+    /* background-color: green; */
+    background-image: url(../images/award.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.whyopacity{
+    height: 430px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5)
+/* background-color: red; */
+    /* background-color: rgba(0px, green, blue, alpha); */
+}
+
+.celan{
+    margin-left: 70px;
+    padding-top: 180px;
+    /* margin-top: 300px; */
+}
+.celand{
+    margin-left: 70px;
+}
+.shad{
+    box-shadow: 0px 0px 20px 0px gray;
+    
+}
+.navbar a{
+    color:white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+    color:black;
+}
+
+
+.month{
+    height: 580px;
+    width: 180px;
+}
+.month li{
+    height: 30px;
+    width: 40%;
+    margin-left:50px;
+}
+
+.navbar a{
+    color:white;
+}
+
+.shap{
+    background-image: url(../images/about-page-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+     
+    }
